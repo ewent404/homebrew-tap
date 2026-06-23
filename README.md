@@ -3,7 +3,7 @@
 Install ShipSpec:
 
 ```bash
-brew install ewent404/tap/shipspec
+brew install shipspec-dev/tap/shipspec
 ```
 
 Then:
