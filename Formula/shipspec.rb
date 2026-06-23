@@ -9,6 +9,7 @@ class Shipspec < Formula
 
   def install
     system "npm", "install", *std_npm_args
+    bin.install_symlink libexec/"bin/gsd"
   end
 
   test do
